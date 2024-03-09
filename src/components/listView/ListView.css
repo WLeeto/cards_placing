@@ -1,0 +1,36 @@
+.list-item {
+    display: flex; /* Используем flexbox для расположения элементов по горизонтали */
+    align-items: center; /* Выравниваем элементы по вертикали по центру */
+    justify-content: space-between;
+    width: 100%; /* Ширина списка карточек */
+    padding: 5px; /* Отступы внутри карточки */
+    margin: 5px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .list-item img {
+    max-width: 100px; /* Максимальная ширина картинки */
+    height: auto; /* Сохраняем пропорции */
+    margin-right: 20px; /* Отступ справа от картинки */
+  }
+  
+  .list-item h3,
+  .list-item span,
+  .list-item button {
+    margin: 0; /* Убираем отступы вокруг элементов */
+  }
+  
+  .list-item button {
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем границы кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    margin-right: 30px;
+    border-radius: 5px; /* Закругление углов кнопки */
+    cursor: pointer; /* Изменяем курсор при наведении */
+  }
+  
+  .list-item button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+  }
+  
